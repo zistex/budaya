@@ -1,0 +1,6 @@
+{
+  "name": "cagar budaya.com",
+  "description": "Jasa Kajian dan Penelitian Arsitektur Cagar Budaya Nasional se-Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
