@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", serif;
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
   html {
     font-family: var(--font-sans);
-    color: #0A0A0A;
-    background-color: #FAFAFA;
+    color: #10231E;
+    background-color: #F5F3EE;
   }
 
   h1, h2, h3 {
@@ -30,7 +30,7 @@
 .animate-marquee-rtl {
   display: flex;
   width: max-content;
-  animation: marquee-rtl 42s linear infinite;
+  animation: marquee-rtl 46s linear infinite;
   will-change: transform;
 }
 
@@ -45,7 +45,7 @@
   }
 }
 
-/* Vintage archival black & white photo treatment */
+/* Gambar tetap hitam putih jadul (silver-gelatin monochrome) */
 .archival-photo {
-  filter: grayscale(100%) contrast(1.06);
+  filter: grayscale(100%) contrast(1.08) brightness(0.98);
 }
